@@ -134,3 +134,74 @@ Untuk mengubah suatu nilai ke tipe data boolean, kita bisa gunakan fungsi Boolea
     console.log(boolFromString); // output: true
     console.log(boolFromNull); // output: falsegi
 }
+
+// Operator
+/* Secara umum, operator dalam JavaScript terbagi menjadi tiga kelompok: unary, binary, dan ternary. Pengelompokan ini berdasarkan jumlah operan yang diperlukan untuk menggunakan suatu operator. */
+
+{
+    let age = 24;
+
+    // Unary operator
+    typeof age;
+
+    // Binary Operator
+    5 + 4;
+    10 / 2;
+    age = 30;
+
+    // Ternary operator
+    (age < 8) ? 'You are to young' : 'Wellcome on board';
+}
+
+// Assignment Operator
+// Digunakan untuk menginisiasi nilai
+{
+    const name = "Chaerul";
+    let location = "Bekasi";
+
+    location = "Cikarang"; // Digunakan untuk mengubah nilai
+
+}
+
+// // Arithmetic Operator
+// 6 + 5; // mengembalikan 11
+// 7 - 2; // mengembalikan 5
+// 8 * 5; // mengembalikan 40
+// 10 / 3; // mengembalikan 3.33
+// 10 % 2; // mengembalikan 0
+// 2 (10 + 2); // mengembalikan 24
+
+
+// Comparison Operator
+{
+    let a = 90;
+
+    if (a == 90) {
+        console.log("Nilai A");
+    }
+    else if (a == 80) {
+        console.log("Nilai B");
+    }
+    else if (a == 70) {
+        console.log("Nilai C")
+    }
+    else {
+        console.log("Nilai E")
+    }
+}
+
+/*  Logical Operator
+Operator logika digunakan untuk menetapkan logika dari dua nilai operan boolean. Dengan operator logika, kita bisa melakukan operasi gerbang logika, seperti AND dan OR. Operator logika dapat digunakan untuk menetapkan logika yang lebih kompleks.*/
+
+{
+    let nilai = 90;
+    let absen = 90;
+    let hasil = 'Lulus';
+
+    if ( nilai >= 80 && absen >= 90 && hasil === 'Lulus'){
+        console.log("Siswa Lulus");
+    }
+    else {
+        console.log("Siswa Tidak Lulus");
+    }
+}
